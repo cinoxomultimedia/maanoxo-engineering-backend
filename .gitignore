@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules/
+
+# Environment variables - IMPORTANT: This file contains secrets!
+.env
+
+# User-uploaded files
+uploads/
