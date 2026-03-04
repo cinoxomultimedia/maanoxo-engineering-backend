@@ -36,6 +36,11 @@ app.use('/api/contact', contactRoutes);
 app.use('/api/brands', brandRoutes);
 app.use('/api/auth', authRoutes);
 
+// Root route for testing
+app.get('/', (req, res) => {
+  res.send('Maanoxo Engineering Backend is running');
+});
+
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
